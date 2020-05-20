@@ -9,7 +9,7 @@
 	});
 
 	//Masonry Init
-	$('.masonry-grid').masonry({});
+	//$('.masonry-grid').masonry({});
 
 } )( jQuery );
 
