@@ -15,6 +15,13 @@ a:hover{
     color: #84cc39
 }
 
+p, h1, h2, h3, h4, h5 {
+    -webkit-hyphens: manual !important;
+    -moz-hyphens: manual !important;
+    -ms-hyphens: manual !important;
+    hyphens: manual !important;
+    }
+
 .py-100{
     padding: 100px 0;
 }
@@ -278,4 +285,42 @@ hr.divider {
 
 .ff-ssp{
     font-family: 'Source Sans Pro', sans-serif;
+}
+.clients-img {
+    padding: 40px;
+}
+
+@media (max-width: 768px){
+    h1.site-tagline.mb-5 {
+        font-size: 16px;
+    }
+    .site-description {
+        font-size: 14px;
+    }
+
+    .heading h2 {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .grid-title {
+        min-height: 75px;
+    }
+
+    .grid-title h2 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .divider-section p {
+        font-size: 15px;
+    }
+    .cta h2 {
+        font-size: 20px;
+    }
+    .cta-text{
+        font-size: 15px;
+    }
+    .clients-img {
+        padding: 10px;
+    }
 }
